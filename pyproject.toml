@@ -1,0 +1,13 @@
+[project]
+name = "sourcing-agents"
+version = "0.1.0"
+description = "Auditable multi-agent sourcing for regulated procurement (LangGraph + Claude on Vertex AI)"
+requires-python = ">=3.11"
+dependencies = ["langgraph>=1.0", "pydantic>=2.7", "anthropic[vertex]>=0.40"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
