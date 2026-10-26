@@ -1,4 +1,4 @@
-# sourcing-agents
+# Sourcing-Agents
 
 A multi-agent sourcing system for regulated procurement, built on **LangGraph** with **Claude on Vertex AI**.
 Given a buyer's request ("40 t of MCC PH-102 for Raleigh by March"), it finds candidate suppliers,
